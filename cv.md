@@ -11,8 +11,10 @@ C++ and Python simple school tasks
 ```
 let a = 0;
 alert( a );
-
 ```
+## Experience
+zero
+
 ## Education
 --
 ## English
