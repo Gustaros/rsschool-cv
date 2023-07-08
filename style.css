@@ -1,3 +1,6 @@
+.body{
+    background-color: bisque;
+}
 
 .nav{
     background-color: burlywood;
@@ -12,6 +15,11 @@
 .head_element{
     display: inline;
 }
+
+.main{
+    color:black;
+}
+
 .avatar{
     width: 5%;
     border-radius: 50%;
