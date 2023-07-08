@@ -13,12 +13,11 @@
   <header class="header">
     <nav class="nav">
       <ul class="line">
-        <li class="head_element"><a href="#me">little bit about me</a></li>
         <li class="head_element"><a href="#contacts">contacts</a></li>
         <li class="head_element"><a href="#skills">skills</a></li>
         <li class="head_element"><a href="#code">code example</a></li>
-        <li class="head_element"><a href="#pojects">projects</a></li>
-        <li class="head_element"><a href="#knowledge">knowledge</a></li>
+        <li class="head_element"><a href="#projects">projects</a></li>
+        <li class="head_element"><a href="#education">education</a></li>
         <li class="head_element"><a href="#languages">languages</a></li>
       </ul>
     </nav>
@@ -27,29 +26,51 @@
   <main class="main">
     <center>
       <h1>Arsenii Makarov</h1>
-      <h2>LITTLE BIT ABOUT ME</h2>
-      <h2>CONTACTS</h2>
-      <ul class="spec">
-        <li>Discord: <a href=""></a></li>
-        <li><a href="mailto:arsenya.makarov.2000@gmail.com">Email <img src="assets/svg/email-svgrepo-com.svg"
-              height="10"></a></li>
-      </ul>
-      <h2>SKILLS</h2>
-      <ul class="spec">
-        <li>C++ and Python simple school tasks</li>
-        <li>zero experience</li>
-      </ul>
-      <h2>CODE EXAMPLE</h2>
-      <pre>
+      <h3>fooly university student</h3>
+      <section id="contacts">
+        <h2>CONTACTS</h2>
+        <ul class="spec">
+          <li><a href="https://discordapp.com/users/418253199800270848/" target="_blank">Discord <img
+                src="assets/svg/636e0a6918e57475a843f59f_icon_clyde_black_RGB.svg" height="10" alt="discord">
+              mrmadgreek</a></li>
+          <li><a href="mailto:arsenya.makarov.2000@gmail.com" target="_blank">Email <img
+                src="assets/svg/email-svgrepo-com.svg" height="10" alt="email"> arsenya.makarov.2000@gmail.com</a></li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h2>SKILLS</h2>
+        <ul class="spec">
+          <li>C++ and Python simple school tasks</li>
+          <li>zero experience</li>
+        </ul>
+      </section>
+      <section id="code">
+        <h2>CODE EXAMPLE</h2>
+        <pre>
         <code>
-  let a = 0;
-  alert( a );
+          for (int i = 0; i < 2 * map_size; i++){
+           if (map[mx][my] % 256 > 0)break;
+           t1 = (mx - x + (dx > 0)) / dx; t2 = (my - y + (dy > 0)) / dy;
+           if (t1 < t2) { y += dy * t1; mx += dmx; x = mx - (dx < 0) * dmx; d += t1; }
+           else { x += dx * t2; my += dmy; y = my - (dy < 0) * dmy; d += t2; }}
         </code>
       </pre>
-      <h2>PROJECTS</h2>
-      <h2>EDUCATION</h2>
-      studying at university
-      <h2>LANGUAGES</h2>
+      </section>
+      <section id="projects">
+        <h2>PROJECTS</h2>
+        <a href="https://github.com/Gustaros/rsschool-cv/tree/rsschool-cv-html" target="_blank">my curriculum vitae</a>
+      </section>
+      <section id="education">
+        <h2>EDUCATION</h2>
+        studying at university
+      </section>
+      <section id="languages">
+        <h2>LANGUAGES</h2>
+        <ul class="spec">
+          <li>Russian - native</li>
+          <li>English - must be better</li>
+        </ul>
+      </section>
 
     </center>
 
