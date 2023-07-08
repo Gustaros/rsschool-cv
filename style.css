@@ -1,6 +1,17 @@
 
+.nav{
+    background-color: burlywood;
+    padding: 0.1%;
+}
 
+.line{
+    display: flex;
+    justify-content: space-around;
+}
 
+.head_element{
+    display: inline;
+}
 .avatar{
     width: 5%;
     border-radius: 50%;
@@ -8,6 +19,6 @@
 
 
 .footer{
-    height: 100px;
+    height: 5%;
     background-color: brown;
 }
