@@ -32,6 +32,10 @@ a{
 .nav{
     background-color: burlywood;
     padding: 0.1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .line{
@@ -44,6 +48,15 @@ a{
     text-align: center;
     color:black;
     flex-grow: 1;
+    margin-top: 2em;
+}
+h1{
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
+h3{
+    margin-top: 0.4em;
+    margin-bottom: 4em;
 }
 
 .avatar{
@@ -65,3 +78,9 @@ a{
     line-height: 20px;
     padding: 0 20px;
 }
+
+code{
+    white-space: pre;
+    font-size: larger;
+}
+
